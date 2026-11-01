@@ -1,4 +1,4 @@
-# agentsim-dev
+# AgentSIM
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentsim-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentsim.dev/
+AgentSIM provides operational identity for agents hitting authentication walls. It lets you verify apps you own, run live SMS challenges, and return a code or safe stop into the agent workflow, enabling seamless integration of auth decisions into automated processes.
+
+**Areas:** AgentSIM · Auth · Identity · Security · API
+
+## AgentSIM on APIs.io
+
+Everything profiled for AgentSIM is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentsim-dev/](https://apis.io/providers/agentsim-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [AgentSIM Agents API](https://apis.io/apis/agentsim-dev/agentsim-dev-agents-api/) — The Agents API from AgentSIM — 1 operation(s) for agents.
+- [AgentSIM Browser Access API](https://apis.io/apis/agentsim-dev/agentsim-dev-browser-access-api/) — The Browser Access API from AgentSIM — 3 operation(s) for browser access.
+- [AgentSIM Sessions API](https://apis.io/apis/agentsim-dev/agentsim-dev-sessions-api/) — The Sessions API from AgentSIM — 5 operation(s) for sessions.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agentsim Dev Agentic Access](https://apis.io/agentic-access/agentsim-dev/agentsim-dev-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [BrowserConnection](https://apis.io/schemas/agentsim-dev/agentsim-dev-browser-connection/)
+- [Session](https://apis.io/schemas/agentsim-dev/agentsim-dev-session/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentsim Dev Context](https://apis.io/jsonld/agentsim-dev/agentsim-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AgentSIM API Rules](https://apis.io/rules/agentsim-dev/agentsim-dev-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentsim Dev Authentication](https://apis.io/security/agentsim-dev/agentsim-dev-authentication/)
+- [Agentsim Dev Domain Security](https://apis.io/security/agentsim-dev/agentsim-dev-domain-security/)
+- [Agentsim Dev Vulnerability Disclosure](https://apis.io/security/agentsim-dev/agentsim-dev-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Agentsim Dev Scopes](https://apis.io/scopes/agentsim-dev/agentsim-dev-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentsim.dev/)
+- [Documentation](https://docs.agentsim.dev/)
+- [Getting started](https://docs.agentsim.dev/quickstart)
+- [API reference](https://docs.agentsim.dev/llms.txt)
+- [Sign up](https://console.agentsim.dev/sign-up)
+- [Changelog](https://agentsim.dev/changelog)
+- [Blog](https://agentsim.dev/blog)
+- [Terms of service](https://agentsim.dev/terms)
+- [Privacy policy](https://agentsim.dev/privacy)
+- [GitHub](https://github.com/agentsimdev)
+
+## API Evangelist rating
+
+**Kin Score 56.7** — strong · rubric 0.26.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 58.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 56.4 |
+| Access clarity | 34.2 |
+
+**Agent readiness 53.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentsim-dev/](https://apis.io/providers/agentsim-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AgentSIM: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentsim-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
