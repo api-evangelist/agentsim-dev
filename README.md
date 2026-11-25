@@ -66,7 +66,7 @@
 
 AgentSIM provides operational identity for agents hitting authentication walls. It lets you verify apps you own, run live SMS challenges, and return a code or safe stop into the agent workflow, enabling seamless integration of auth decisions into automated processes.
 
-**Areas:** AgentSIM · Auth · Identity · Security · API
+**Areas:** AgentSIM · Authentication · Identity · Security
 
 ## AgentSIM on APIs.io
 
@@ -82,11 +82,17 @@ Everything profiled for AgentSIM is published on APIs.io rather than in this rep
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentsim-dev-mcp.yml](https://apis.io/servers/agentsim-dev/agentsim-dev-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentsim Dev Agentic Access](https://apis.io/agentic-access/agentsim-dev/agentsim-dev-agentic-access/)
+- [AgentSIM Agentic Access](https://apis.io/agentic-access/agentsim-dev/agentsim-dev-agentic-access/)
 
 #### JSON Schema (2)
 
@@ -111,15 +117,15 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentsim Dev Authentication](https://apis.io/security/agentsim-dev/agentsim-dev-authentication/)
-- [Agentsim Dev Domain Security](https://apis.io/security/agentsim-dev/agentsim-dev-domain-security/)
-- [Agentsim Dev Vulnerability Disclosure](https://apis.io/security/agentsim-dev/agentsim-dev-vulnerability-disclosure/)
+- [AgentSIM Authentication](https://apis.io/security/agentsim-dev/agentsim-dev-authentication/)
+- [AgentSIM Domain Security](https://apis.io/security/agentsim-dev/agentsim-dev-domain-security/)
+- [AgentSIM Vulnerability Disclosure](https://apis.io/security/agentsim-dev/agentsim-dev-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agentsim Dev Scopes](https://apis.io/scopes/agentsim-dev/agentsim-dev-scopes/)
+- [AgentSIM Scopes](https://apis.io/scopes/agentsim-dev/agentsim-dev-scopes/)
 
 ## Where to find this API
 
@@ -138,23 +144,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 56.7** — strong · rubric 0.26.0 · scored 2026-11-01
+**Kin Score 50.5** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 58.8 |
-| Contract governance | 79.1 |
-| Operational transparency | 31.6 |
+| Discoverability | 73.3 |
+| Contract quality | 59.4 |
+| Contract governance | 22.0 |
+| Operational transparency | 28.6 |
 | Developer ergonomics | 56.4 |
-| Access clarity | 34.2 |
+| Access clarity | 38.3 |
 
-**Agent readiness 53.4** — agent-ready (gated down from agent-native)
+**Agent readiness 49.2** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
@@ -165,7 +171,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | unknown |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | conformant |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -175,6 +181,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
 
